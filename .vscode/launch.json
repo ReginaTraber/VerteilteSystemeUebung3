@@ -6,7 +6,7 @@
    "request": "launch",
    "mainClass": "ch.ost.mas.cds.jmstutorial.ps.MsgProducer",
    "projectName": "CDSUebung_3-1",
-   "args": "-count 100 -host mq-mas-se.cloud.oeint.ch"
+   "args": "-count 15 -host mq-mas-se.cloud.oeint.ch"
   },
   {
    "type": "java",
