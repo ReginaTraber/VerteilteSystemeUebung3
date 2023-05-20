@@ -1,0 +1,52 @@
+{
+ "configurations": [
+  {
+   "type": "java",
+   "name": "MsgProducer",
+   "request": "launch",
+   "mainClass": "ch.ost.mas.cds.jmstutorial.ps.MsgProducer",
+   "projectName": "CDSUebung_3-1",
+   "args": "-count 100 -host mq-mas-se.cloud.oeint.ch"
+  },
+  {
+   "type": "java",
+   "name": "MsgConsumer",
+   "request": "launch",
+   "mainClass": "ch.ost.mas.cds.jmstutorial.ps.MsgConsumer",
+   "projectName": "CDSUebung_3-1",
+   "args": "-host mq-mas-se.cloud.oeint.ch"
+  },
+  {
+   "type": "java",
+   "name": "MsgQueueReplyer",
+   "request": "launch",
+   "mainClass": "ch.ost.mas.cds.jmstutorial.ptp.MsgQueueReplyer",
+   "projectName": "CDSUebung_3-1",
+   "args": "-host mq-mas-se.cloud.oeint.ch"
+  },
+  {
+   "type": "java",
+   "name": "SyncMsgQueueSender",
+   "request": "launch",
+   "mainClass": "ch.ost.mas.cds.jmstutorial.ptp.SyncMsgQueueSender",
+   "projectName": "CDSUebung_3-1",
+   "args": "-count 10 -host mq-mas-se.cloud.oeint.ch"
+  },
+  {
+   "type": "java",
+   "name": "MsgQueueReceiver",
+   "request": "launch",
+   "mainClass": "ch.ost.mas.cds.jmstutorial.ptp.MsgQueueReceiver",
+   "projectName": "CDSUebung_3-1",
+   "args": "-count 20 -host mq-mas-se.cloud.oeint.ch"
+  },
+  {
+   "type": "java",
+   "name": "MsgQueueSender",
+   "request": "launch",
+   "mainClass": "ch.ost.mas.cds.jmstutorial.ptp.MsgQueueSender",
+   "projectName": "CDSUebung_3-1",
+   "args": "-count 30 -host mq-mas-se.cloud.oeint.ch"
+  }
+ ]
+}
